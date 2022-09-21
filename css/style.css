@@ -98,3 +98,16 @@ nav{
     font-size: 70px;
     padding: 10px;
 }
+#subscribe{
+    background: url(../image/sub1.png) no-repeat center;
+    background-size: cover;
+    padding: 50px;
+}
+.sub-writing-part p{
+    width: 50%;
+}
+#service{
+    background-color: #303030;
+    padding: 50px 0px;
+    color: #fff;
+}

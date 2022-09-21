@@ -35,12 +35,18 @@
         width: 70%;
         padding: 5px;
     }
+    .statistics-writing-part{
+        padding: 10px 0px;
+    }
     .writing p{
         width: 100%;
         font-size: 30px;
     }
     .writing h1{
         font-size: 40px;
+    }
+    .sub-writing-part p{
+        width: 100%;
     }
 }
 /* tablet version */
@@ -86,6 +92,9 @@
     .writing h1{
         font-size: 50px;
     }
+    .sub-writing-part p{
+        width: 70%;
+    }
 } 
 /* landschope tablet */
 @media (min-width: 769px) and (max-width: 992px) {
@@ -124,6 +133,9 @@
     .writing h1{
         font-size: 50px;
     }
+    .sub-writing-part p{
+        width: 60%;
+    }
 }
 /* laptop version */
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -154,5 +166,8 @@
     #amazing-btn{
         width: 40%;
         padding: 5px;
+    }
+    .sub-writing-part p{
+        width: 50%;
     }
 }
